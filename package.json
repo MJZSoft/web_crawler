@@ -1,18 +1,16 @@
 {
-  "name": "web_crawler",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "chromedriver": "^131.0.1",
-    "dotenv": "^16.4.5",
-    "selenium-webdriver": "^4.26.0",
-    "sqlite3": "^5.1.7"
-  }
+    "name": "my-crawler",
+    "version": "0.0.1",
+    "type": "module",
+    "description": "This is an example of a Crawlee project.",
+    "dependencies": {
+        "crawlee": "^3.0.0",
+        "playwright": "*"
+    },
+    "scripts": {
+        "start": "node src/main.js",
+        "test": "echo \"Error: oops, the actor has no tests yet, sad!\" && exit 1"
+    },
+    "author": "It's not you it's me",
+    "license": "ISC"
 }
